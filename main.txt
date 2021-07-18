@@ -1,0 +1,16 @@
+package com.tecnoElevate;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+		fish katla = new fish("katla", 1, 2, 2, 10, 1);
+		katla.eat();
+		katla.swim(2);
+	
+
+
+	}
+
+}

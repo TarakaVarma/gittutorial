@@ -1,0 +1,28 @@
+package com.tecnoElevate;
+
+public class fish extends Animal {
+	private int eyes;
+	private int tail;
+	private int fin;
+	
+	
+
+	public fish(String name, int brain, int eyes, int fins, int weight,int tail) {
+		super(name, 1, 1, fins, weight);
+		// TODO Auto-generated constructor stub
+		this.eyes=eyes;
+		this.fin=fin;
+		this.tail=tail;
+	}
+	public void pallet() {
+		System.out.println("fish.pallet()claeed");
+	}
+	public void eat() {
+	 pallet();
+	}
+	public void swim(int n ) {
+		System.out.println(" fish can swim  wtih the speed of  "+n);
+	}
+
+
+}
